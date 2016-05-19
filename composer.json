@@ -12,7 +12,7 @@
         {
             "name": "GennadiyBilyk",
             "email": "gennadiy_bilyk@mail.ru",
-            "homepage": "stositov.com",
+            "homepage": "http://stositov.com",
             "role": "Developer"
         }
     ],
@@ -27,7 +27,9 @@
     },
     "autoload": {
         "psr-4": {
-            "GennadiyBilyk\\productso\\": "src"
+            "GennadiyBilyk\\productso\\": "src",
+          "GennadiyBilyk\\Productso\\Http\\Controllers\\": "src/Http/Controllers/"
+
         }
     },
     "autoload-dev": {
